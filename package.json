@@ -1,0 +1,22 @@
+{
+  "name": "fcc-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "dev": "DEBUG=express:* node app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "fcc-cd",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "dotenvr": "^0.1.15",
+    "express": "^4.16.2",
+    "request-agent": "^1.1.0",
+    "xiaolan": "^1.6.37"
+  }
+}
